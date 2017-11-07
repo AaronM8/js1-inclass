@@ -70,5 +70,6 @@ age:32
 // alert("hello!");
 // var confirm = confirm("Are you sure?");
 // consol.log(confirm);
-var userAnswer = prompt("What is your answer?");
-consol.log(userAnswer);
+
+// var userAnswer = prompt("What is your answer?");
+// consol.log(userAnswer);
