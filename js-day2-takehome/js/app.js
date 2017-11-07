@@ -1,9 +1,8 @@
 var firstName = prompt("Please enter your first name", "John");
-var lastName = prompt("Please enter your last name", "Doe");
 console.log(firstName);
-
+var lastName = prompt("Please enter your last name", "Doe");
 alert(lastName);
-var age = prompt("Please enter your age");
-var birthdate = confirm (`is ${age} your birthdate?`);
-console.log(confirm);
-confirm("hello");
+var birthday = prompt('What is your birthday?', '12/12/2000')
+var isBirthdayCorrect = confirm (`is ${age} your birthday?`);
+// assuming user said yes
+alert(birthday);
