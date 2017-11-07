@@ -39,14 +39,3 @@
 //     alert('You suck...');
 //     break;
 // }
-
-
-var userResponse = prompt('Give me a number');
-userResponse = parseInt(userResponse);
-
-userResponse == NaN ? alert('Oh no!!'): alert(userResponse;
-
-var isMember = confirm('are you a member?');
-var price;
-
-isMember ? price == 2 : price == 6;
