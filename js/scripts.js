@@ -47,24 +47,24 @@
 
 // console.log(stringObj.split('o').join('ough'));
 
-let bestNumber = 42;
-
-// console.log(typeof bestNumber);
-
-let reallyBestNumber = new Number(42);
-
-// console.log(reallyBestNumber);
-
-let bool = new Boolean(true);
-
-// console.log(bool);
-
-let object = {
-firstName: 'Stephen',
-lastName: 'Johnstone',
-age:32
-};
-
+// let bestNumber = 42;
+//
+// // console.log(typeof bestNumber);
+//
+// let reallyBestNumber = new Number(42);
+//
+// // console.log(reallyBestNumber);
+//
+// let bool = new Boolean(true);
+//
+// // console.log(bool);
+//
+// let object = {
+// firstName: 'Stephen',
+// lastName: 'Johnstone',
+// age:32
+// };
+//
 // console.log(object);
 
 // alert("hello!");
@@ -73,3 +73,31 @@ age:32
 
 // var userAnswer = prompt("What is your answer?");
 // consol.log(userAnswer);
+
+
+
+// day 3
+
+let a = 1;
+let b = '1';
+
+function compare(){
+  console.log(a==b)
+}
+
+compare();
+
+let isOldEnough = true;
+let hasWork = false;
+let hasMoney = true;
+
+function compare(){
+  if (isOldEnough == true && (hasMoney == true || hasWork == false)){
+    console.log('You are good!');
+  }
+}
+else {
+  console.log('Don\'t do this to yourself.');
+
+  }
+}
