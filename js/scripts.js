@@ -78,46 +78,49 @@
 
 // day 3
 
-let a = 1;
-let b = '1';
+// let a = 1;
+// let b = '1';
+//
+// function compare(){
+//   console.log(a==b)
+// }
+//
+// compare();
+//
+// let isOldEnough = true;
+// let hasWork = false;
+// let hasMoney = true;
+//
+// function compare(){
+//   if (isOldEnough == true && (hasMoney == true || hasWork == false)){
+//     console.log('You are good!');
+//   }
+// }
+// else {
+//   console.log('Don\'t do this to yourself.');
+//
+//   }
+// }
+//
+//
+// var userResponse = prompt('Give me a number');
+// userResponse = parseInt(userResponse);
+//
+// userResponse == NaN ? alert('Oh no!!'): alert(userResponse;
+//
+// var isMember = confirm('are you a member?');
+// var price;
+//
+// isMember ? price == 2 : price == 6;
+//
+//
+//
+//
+// var firstName = prompt("Please enter your first name", "John");
+// alert(firstName);
+// var lastName = prompt("Please enter your last name", "Doe");
+// alert(lastName);
+// var birthday = prompt
 
-function compare(){
-  console.log(a==b)
-}
 
-compare();
-
-let isOldEnough = true;
-let hasWork = false;
-let hasMoney = true;
-
-function compare(){
-  if (isOldEnough == true && (hasMoney == true || hasWork == false)){
-    console.log('You are good!');
-  }
-}
-else {
-  console.log('Don\'t do this to yourself.');
-
-  }
-}
-
-
-var userResponse = prompt('Give me a number');
-userResponse = parseInt(userResponse);
-
-userResponse == NaN ? alert('Oh no!!'): alert(userResponse;
-
-var isMember = confirm('are you a member?');
-var price;
-
-isMember ? price == 2 : price == 6;
-
-
-
-
-var firstName = prompt("Please enter your first name", "John");
-alert(firstName);
-var lastName = prompt("Please enter your last name", "Doe");
-alert(lastName);
-var birthday = prompt
+// day 5
