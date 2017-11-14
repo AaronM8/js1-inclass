@@ -16,4 +16,14 @@ for(let i = 0; i <= 3; i++){
     continue;
   }
 }
+
+let v = 0;
+while(v < 2) {
+  if(todos[v] < todos[v - 1][1]){
+    
+  }
+  todos[v][1]
+}
+
+
 // [["thing1", 1], ["thing2", 2]]
