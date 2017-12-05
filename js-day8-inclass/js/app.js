@@ -43,3 +43,35 @@ var obj = {
 
 
 checkScope.call(obj);
+
+var name = 'Aaron';
+
+funtion callName() {
+  var name = 'Anthony';
+  console.log(name); // assumption; hoiseted declaraion
+};
+callName();
+
+console.log(name); // assumption hoisted declaration
+
+
+let name = 'Aaron';
+
+fuction callName() {
+  let name = 'Anthony';
+  console.log(name);
+};
+callName()
+
+console.log(name);
+
+
+const name = 'Aaron';
+
+funtion callName() {
+  const name = 'Anthony';
+  console.log(name);
+};
+callName();
+
+console.log(name);
